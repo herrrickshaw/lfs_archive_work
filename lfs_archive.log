@@ -1,0 +1,15 @@
+[05:42:30] == verify ==
+[05:42:32] local store: 11300 objects, 5.5G
+[05:42:50] local-only (NOT on LFS remote): 344 objects — these are unrecoverable if lost
+[05:42:50] verify done. Manifests in /Users/umashankar/lfs_archive_work
+[05:42:59] == archive ==
+[05:42:59] compressing /Users/umashankar/.git/lfs/objects -> /Users/umashankar/lfs_archive_work/lfs_store_20260802.tar.zst (zstd -T0)
+[05:44:19] archive: 3.8G  sha256 recorded
+[06:48:55] == upload ==
+Transferred:            1 / 1, 100%
+Elapsed time:      7m47.8s
+[06:56:51] upload VERIFIED: remote size matches (4074439946 bytes)
+[06:56:51] == prune ==
+11301 local objects, 332 retained, 18 verified with remote, done.
+Deleting objects: 100% (10970/10970), done.
+[06:57:53] local LFS store: 5.5G -> 2.4G
